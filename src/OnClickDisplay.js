@@ -1,7 +1,6 @@
-function OnClickDisplay(x, y, z) {
+export function OnClickDisplay(x, y, z) {
   let image = document.getElementById(x);
-
-  if (image.style.opacity == "0.1") {
+  if (image.style.opacity === "0.1") {
     image.style.opacity = "1";
     image.style.filter = "blur(0px)";
 
@@ -22,17 +21,15 @@ function OnClickDisplay(x, y, z) {
   }
 }
 
-function Hover(x) {
+export function Hover(x) {
   let image = document.getElementById(x);
-  if (image.style.filter == "blur(0px)") {
+  if (image.style.filter === "blur(0px)") {
     image.style.opacity = "1";
   }
 }
-function Hoverout(x) {
+export function Hoverout(x) {
   let image = document.getElementById(x);
-  if (image.style.filter == "blur(0px)") {
+  if (image.style.filter === "blur(0px)") {
     image.style.opacity = "0.5";
   }
 }
-
-export default { OnClickDisplay, Hoverout, Hover };
