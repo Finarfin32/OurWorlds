@@ -40,12 +40,7 @@ function App() {
           <img src={main_side2} className="w-100" alt="..."></img>
         </div>
         <div style={{ clear: "both" }}></div>
-        <span
-          onSelectStart="return false"
-          onSelect="return false"
-          onCopy="return false"
-          id="text1"
-        >
+        <span id="text1">
           Rozgrywka dzieje się w świecie fantasy, który technologicznie,
           porównując do naszego, <br />
           stoi gdzieś w granicach XIII i XIV wieku. Świat ten jest brutalny i
@@ -73,13 +68,15 @@ function App() {
           złodziejem, kapłanem. Stwórz własną historię, przeżyj ją, bądź kim
           chcesz!
           <br />
+          <a id="link1" href="http://ourworlds.pl/Forum/#49">
+            <input
+              type="button"
+              id="button1"
+              value="WYBIERAM KRONIKI ARBORGU"
+            />
+          </a>
         </span>
-        <span
-          onSelectStart="return false"
-          onSelect="return false"
-          onCopy="return false"
-          id="text2"
-        >
+        <span id="text2">
           Jest rok 225. Cesarstwo rzymskie przeżywa kryzys. Najpotężniejsze
           niebezpieczeństwo <br />
           nadciąga ze strony Persji, zagrażając odciętemu od świata przyczółkowi
@@ -106,18 +103,14 @@ function App() {
           straceńczej odwadze, zdradzie, przede wszystkim jednak - bezpardonowej
           walce.
           <br />
+          <a id="link2" href="http://ourworlds.pl/Forum/#1">
+            <input
+              type="button"
+              id="button2"
+              value="WYBIERAM IMPERIUM W PŁOMIENIACH"
+            />
+          </a>
         </span>
-        <div style={{ clear: "both" }}></div>
-        <a id="link1" href="http://ourworlds.pl/Forum/#49">
-          <input type="button" id="button1" value="WYBIERAM KRONIKI ARBORGU" />
-        </a>
-        <a id="link2" href="http://ourworlds.pl/Forum/#1">
-          <input
-            type="button"
-            id="button2"
-            value="WYBIERAM IMPERIUM W PŁOMIENIACH"
-          />
-        </a>
         <Link to="/rome">Rzym</Link> | <Link to="/chronicles">Kroniki</Link>
       </div>
     </div>
