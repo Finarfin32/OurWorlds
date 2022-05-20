@@ -1,23 +1,23 @@
-export function OnClickDisplay(x, y, z) {
-  let image = document.getElementById(x);
+export function OnClickDisplay(background, button, text) {
+  let image = document.getElementById(background);
   if (image.style.opacity === "0.1") {
     image.style.opacity = "1";
     image.style.filter = "blur(0px)";
 
-    let button = document.getElementById(y);
-    button.style.visibility = "hidden";
+    let bttn = document.getElementById(button);
+    bttn.style.visibility = "hidden";
 
-    let text = document.getElementById(z);
-    text.style.visibility = "hidden";
+    let tet = document.getElementById(text);
+    tet.style.visibility = "hidden";
   } else {
     image.style.opacity = "0.1";
     image.style.filter = "blur(3px)";
 
-    let button = document.getElementById(y);
-    button.style.visibility = "visible";
+    let bttn = document.getElementById(button);
+    bttn.style.visibility = "visible";
 
-    let text = document.getElementById(z);
-    text.style.visibility = "visible";
+    let tet = document.getElementById(text);
+    tet.style.visibility = "visible";
   }
 }
 
