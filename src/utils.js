@@ -11,7 +11,7 @@ export function StopSound(soundobj) {
 
 export function OnClickDisplay(background, button, text, sound) {
   let image = document.getElementById(background);
-  if (image.style.opacity === "0.1") {
+  if (image.style.opacity === "0.13") {
     StopSound(sound);
     image.style.opacity = "1";
     image.style.filter = "blur(0px)";
@@ -25,7 +25,7 @@ export function OnClickDisplay(background, button, text, sound) {
     if (sound === "chroniclesSound") StopSound("romeSound");
     else StopSound("chroniclesSound");
     PlaySound(sound);
-    image.style.opacity = "0.1";
+    image.style.opacity = "0.13";
     image.style.filter = "blur(3px)";
 
     let bttn = document.getElementById(button);
@@ -37,19 +37,15 @@ export function OnClickDisplay(background, button, text, sound) {
 }
 
 export function Hover(x) {
-  console.log("test1");
   let image = document.getElementById(x);
   if (image.style.filter === "blur(0px)") {
     image.style.opacity = "1";
-    console.log("test1.1");
     image.style.boxShadow = "0px 0px 25px 5px black inset";
   }
 }
 export function Hoverout(x) {
-  console.log("test2");
   let image = document.getElementById(x);
   if (image.style.filter === "blur(0px)") {
-    console.log("test2.2");
     image.style.opacity = "0.5";
     image.style.boxShadow = "0px 0px 25px 5px black inset";
   }

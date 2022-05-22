@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import "bootstrap/dist/css/bootstrap.min.css";
 import main_side1 from "./media/main_side1.png";
 import main_side2 from "./media/main_side2.png";
 import chroniclesSound from "./sound/chroniclesSound.mp3";
 import romeSound from "./sound/romeSound.mp3";
 import "./App.css";
+import "./MediaQueries.css";
 import {
   OnClickDisplay,
   Hover,
@@ -17,13 +17,6 @@ import {
 function App() {
   return (
     <div className="application">
-      <Helmet>
-        <meta charset="utf-8" />
-        <title>Ourworlds</title>
-        <meta name="description" content="Roleplay forum" />
-        <meta name="author" content="Finarfin" />
-      </Helmet>
-
       <div className="row g-0">
         <div
           id="side1"
@@ -65,10 +58,10 @@ function App() {
                 value="WYBIERAM KRONIKI ARBORGU"
               />
             </a>
-            <button onclick={() => setVolumeOff()} type="button">
+            <button onClick={() => setVolumeOff()} type="button">
               Wycisz dźwięk
             </button>
-            <button onclick={() => setFullVolume()} type="button">
+            <button onClick={() => setFullVolume()} type="button">
               Włącz dźwięk
             </button>
           </span>
@@ -111,10 +104,10 @@ function App() {
                 value="WYBIERAM IMPERIUM W PŁOMIENIACH"
               />
             </a>
-            <button onclick={() => setVolumeOff()} type="button">
+            <button onClick={() => setVolumeOff()} type="button">
               Wycisz dźwięk
             </button>
-            <button onclick={() => setFullVolume()} type="button">
+            <button onClick={() => setFullVolume()} type="button">
               Włącz dźwięk
             </button>
           </span>
