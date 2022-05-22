@@ -3,10 +3,10 @@ import { Helmet } from "react-helmet";
 import "bootstrap/dist/css/bootstrap.min.css";
 import main_side1 from "./media/main_side1.png";
 import main_side2 from "./media/main_side2.png";
+import chroniclesSound from "./sound/chroniclesSound.mp3";
+import romeSound from "./sound/romeSound.mp3";
 import "./App.css";
-import { OnClickDisplay } from "./OnClickDisplay";
-import { Hover } from "./OnClickDisplay";
-import { Hoverout } from "./OnClickDisplay";
+import { OnClickDisplay, Hover, Hoverout } from "./utils";
 
 function App() {
   return (
@@ -23,7 +23,9 @@ function App() {
           id="side1"
           style={{ filter: "blur(0px)" }}
           className="col-lg-6 img-shadow"
-          onClick={() => OnClickDisplay("background1", "button1", "text1")}
+          onClick={() =>
+            OnClickDisplay("background1", "button1", "text1", "chroniclesSound")
+          }
           onMouseOver={() => Hover("side1")}
           onMouseOut={() => Hoverout("side1")}
         >
@@ -63,7 +65,9 @@ function App() {
           id="side2"
           style={{ filter: "blur(0px)" }}
           className="col-lg-6 img-shadow"
-          onClick={() => OnClickDisplay("background2", "button2", "text2")}
+          onClick={() =>
+            OnClickDisplay("background2", "button2", "text2", "romeSound")
+          }
           onMouseOver={() => Hover("side2")}
           onMouseOut={() => Hoverout("side2")}
         >
@@ -98,6 +102,8 @@ function App() {
           </span>
         </div>
         <Link to="/rome">Rzym</Link> | <Link to="/chronicles">Kroniki</Link>
+        <audio id="chroniclesSound" src={chroniclesSound} />
+        <audio id="romeSound" src={romeSound} />
       </div>
     </div>
   );
