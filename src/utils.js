@@ -54,3 +54,13 @@ export function Hoverout(x) {
     image.style.boxShadow = "0px 0px 25px 5px black inset";
   }
 }
+
+export function setVolumeOff(sound) {
+  const thisSound = document.getElementById(sound);
+  thisSound.volume = 0;
+}
+
+export function setFullVolume(sound) {
+  const thisSound = document.getElementById(sound);
+  thisSound.volume = 1.0;
+}

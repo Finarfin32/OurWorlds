@@ -124,22 +124,23 @@ body {
   background-color: rgb(165, 42, 42, 0.2);
 }
 
-/* #link1 {*/
-/*  width: 25%;*/
-/*  visibility: hidden;*/
-/*  float: left;*/
-/*  left: 12%;*/
-/*   position: absolute;*/
-/*  bottom: 30%;*/
-/*  height: 5%;*/
-/*} */
+/*#link1 {
+  width: 25%;
+  visibility: hidden;
+  float: left;
+  left: 12%;
+  position: absolute;
+  bottom: 30%;
+  height: 5%;
+}
 
-/*#link2 {*/
-/*  width: 25%;*/
-/*  visibility: hidden;*/
-/*  float: left;*/
-/*  left: 38%;*/
-/*  position: absolute;*/
-/*  bottom: 30%;*/
-/*  height: 5%;*/
-/*} */
+#link2 {
+  width: 25%;
+  visibility: hidden;
+  float: left;
+  left: 38%;
+  position: absolute;
+  bottom: 30%;
+  height: 5%;
+}
+*/

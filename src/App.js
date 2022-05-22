@@ -6,7 +6,13 @@ import main_side2 from "./media/main_side2.png";
 import chroniclesSound from "./sound/chroniclesSound.mp3";
 import romeSound from "./sound/romeSound.mp3";
 import "./App.css";
-import { OnClickDisplay, Hover, Hoverout } from "./utils";
+import {
+  OnClickDisplay,
+  Hover,
+  Hoverout,
+  setFullVolume,
+  setVolumeOff,
+} from "./utils";
 
 function App() {
   return (
@@ -59,6 +65,12 @@ function App() {
                 value="WYBIERAM KRONIKI ARBORGU"
               />
             </a>
+            <button onclick={() => setVolumeOff()} type="button">
+              Wycisz dźwięk
+            </button>
+            <button onclick={() => setFullVolume()} type="button">
+              Włącz dźwięk
+            </button>
           </span>
         </div>
         <div
@@ -99,6 +111,12 @@ function App() {
                 value="WYBIERAM IMPERIUM W PŁOMIENIACH"
               />
             </a>
+            <button onclick={() => setVolumeOff()} type="button">
+              Wycisz dźwięk
+            </button>
+            <button onclick={() => setFullVolume()} type="button">
+              Włącz dźwięk
+            </button>
           </span>
         </div>
         <Link to="/rome">Rzym</Link> | <Link to="/chronicles">Kroniki</Link>
