@@ -58,12 +58,22 @@ function App() {
                 value="WYBIERAM KRONIKI ARBORGU"
               />
             </a>
-            {/* <button onClick={() => setVolumeOff()} type="button">
+            <button
+              className="btn btn-dark"
+              id="buttonSound1"
+              onClick={() => setVolumeOff()}
+              type="button"
+            >
+              Włącz dźwięk
+            </button>
+            <button
+              className="btn btn-dark"
+              id="buttonSound2"
+              onClick={() => setFullVolume()}
+              type="button"
+            >
               Wycisz dźwięk
             </button>
-            <button onClick={() => setFullVolume()} type="button">
-              Włącz dźwięk
-            </button> */}
           </span>
         </div>
         <div
@@ -112,7 +122,7 @@ function App() {
             </button> */}
           </span>
         </div>
-        <Link to="/rome">Rzym</Link> | <Link to="/chronicles">Kroniki</Link>
+        {/* <Link to="/rome">Rzym</Link> | <Link to="/chronicles">Kroniki</Link> */}
         <audio id="chroniclesSound" src={chroniclesSound} />
         <audio id="romeSound" src={romeSound} />
       </div>

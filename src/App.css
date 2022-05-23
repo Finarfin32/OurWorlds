@@ -5,7 +5,7 @@ body {
   background-color: black;
   color: white;
 }
-.App-header {
+/* .App-header {
   background-color: black;
   min-height: 100vh;
   display: flex;
@@ -19,7 +19,7 @@ body {
   position: relative;
   max-width: 100%;
   float: left;
-}
+} */
 
 .img-shadow::before {
   content: "";
@@ -31,6 +31,7 @@ body {
   box-shadow: inset 0px 0px 25px 5px rgba(0, 0, 0, 1);
   -moz-box-shadow: inset 0px 0px 25px 5px rgba(0, 0, 0, 1);
   -webkit-box-shadow: inset 0px 0px 25px 5px rgba(0, 0, 0, 1);
+  z-index: 1;
 }
 
 .img-shadow img {
@@ -71,6 +72,7 @@ body {
   width: max-content;
   visibility: hidden;
   border-radius: 1vh;
+  background-image: url(media/marble.png);
   background-color: transparent;
   color: whitesmoke;
   letter-spacing: 3px;
@@ -82,6 +84,7 @@ body {
   width: max-content;
   visibility: hidden;
   border-radius: 1vh;
+  background-image: url(media/marble.png);
   background-color: transparent;
   color: whitesmoke;
   letter-spacing: 3px;
@@ -95,7 +98,7 @@ body {
   position: absolute;
   top: 15%;
   left: 0%;
-  /* visibility: hidden; */
+  visibility: hidden;
   text-align: center;
   color: white;
   font-family: Cambria;
@@ -109,7 +112,7 @@ body {
   left: 0%;
   position: absolute;
   top: 15%;
-  /* visibility: hidden; */
+  visibility: hidden;
   text-align: center;
   color: white;
   font-family: Cambria;
@@ -149,6 +152,29 @@ body {
   position: absolute;
   top: 128%;
   left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@font-face {
+  font-family: Cambria;
+  src: url(media/Cambria.ttf);
+}
+/* TEST GUZIKÓW NIŻEJ */
+#buttonSound1 {
+  margin: 0;
+  position: absolute;
+  top: 210%;
+  left: 55%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#buttonSound2 {
+  margin: 0;
+  position: absolute;
+  top: 210%;
+  left: 70%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }

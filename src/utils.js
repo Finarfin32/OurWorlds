@@ -36,15 +36,15 @@ export function OnClickDisplay(background, button, text, sound) {
   }
 }
 
-export function Hover(x) {
-  let image = document.getElementById(x);
+export function Hover(background) {
+  let image = document.getElementById(background);
   if (image.style.filter === "blur(0px)") {
     image.style.opacity = "1";
     image.style.boxShadow = "0px 0px 25px 5px black inset";
   }
 }
-export function Hoverout(x) {
-  let image = document.getElementById(x);
+export function Hoverout(background) {
+  let image = document.getElementById(background);
   if (image.style.filter === "blur(0px)") {
     image.style.opacity = "0.5";
     image.style.boxShadow = "0px 0px 25px 5px black inset";
