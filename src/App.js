@@ -58,12 +58,12 @@ function App() {
                 value="WYBIERAM KRONIKI ARBORGU"
               />
             </a>
-            <button onClick={() => setVolumeOff()} type="button">
+            {/* <button onClick={() => setVolumeOff()} type="button">
               Wycisz dźwięk
             </button>
             <button onClick={() => setFullVolume()} type="button">
               Włącz dźwięk
-            </button>
+            </button> */}
           </span>
         </div>
         <div
@@ -104,12 +104,12 @@ function App() {
                 value="WYBIERAM IMPERIUM W PŁOMIENIACH"
               />
             </a>
-            <button onClick={() => setVolumeOff()} type="button">
+            {/* <button onClick={() => setVolumeOff()} type="button">
               Wycisz dźwięk
             </button>
             <button onClick={() => setFullVolume()} type="button">
               Włącz dźwięk
-            </button>
+            </button> */}
           </span>
         </div>
         <Link to="/rome">Rzym</Link> | <Link to="/chronicles">Kroniki</Link>

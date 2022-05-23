@@ -74,8 +74,7 @@ body {
   background-color: transparent;
   color: whitesmoke;
   letter-spacing: 3px;
-  margin-bottom: 20%;
-  padding: 1% 3%;
+  padding: 3% 5%;
   cursor: url(media/cursor.png), auto;
 }
 
@@ -86,8 +85,7 @@ body {
   background-color: transparent;
   color: whitesmoke;
   letter-spacing: 3px;
-  margin-bottom: 2%;
-  padding: 1% 3%;
+  padding: 2.5% 5%;
   cursor: url(media/cursor.png), auto;
 }
 
@@ -97,7 +95,7 @@ body {
   position: absolute;
   top: 15%;
   left: 0%;
-  visibility: hidden;
+  /* visibility: hidden; */
   text-align: center;
   color: white;
   font-family: Cambria;
@@ -111,7 +109,7 @@ body {
   left: 0%;
   position: absolute;
   top: 15%;
-  visibility: hidden;
+  /* visibility: hidden; */
   text-align: center;
   color: white;
   font-family: Cambria;
@@ -127,23 +125,30 @@ body {
   background-color: rgb(165, 42, 42, 0.2);
 }
 
-/*#link1 {
-  width: 25%;
-  visibility: hidden;
-  float: left;
-  left: 12%;
+#link1 {
+  /* visibility: hidden;
+  left: 30%;
   position: absolute;
-  bottom: 30%;
-  height: 5%;
+  bottom: -20%; */
+
+  margin: 0;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 #link2 {
-  width: 25%;
-  visibility: hidden;
-  float: left;
-  left: 38%;
+  /* visibility: hidden;
+  left: 30%;
   position: absolute;
-  bottom: 30%;
-  height: 5%;
+  bottom: -40%; */
+
+  margin: 0;
+  position: absolute;
+  top: 128%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-*/

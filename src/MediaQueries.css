@@ -14,20 +14,28 @@
     font-size: 1.5vw;
     cursor: pointer;
   }
+
+  /* #link1 {
+    left: 33%;
+  } */
 }
 
 @media only screen and (max-width: 991px) {
-  #text1 {
+  #text2 {
     color: red;
     font-size: 2.2vw;
     top: 20%;
     letter-spacing: 0.15vw;
   }
 
-  #button1 {
+  #button2 {
     background-color: rgb(116, 33, 33);
     color: white;
     font-size: 1.5vw;
     cursor: pointer;
   }
+
+  /* #link2 {
+    left: 28%;
+  } */
 }
