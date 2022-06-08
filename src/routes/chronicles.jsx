@@ -9,7 +9,6 @@ export default function Chronicles() {
           <FaArrowLeft /> Powrót na stronę główną
         </h2>
       </Link>
-
       <h2>Kroniki</h2>
     </main>
   );
