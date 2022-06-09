@@ -31,6 +31,7 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  border: 1px solid rgba(56, 125, 255);
 }
 
 .cards__item__link {
@@ -117,4 +118,9 @@ h1 {
   .cards__item {
     margin-bottom: 2rem;
   }
+}
+
+@font-face {
+  font-family: Cambria;
+  src: url(/src/media/Cambria.ttf);
 }

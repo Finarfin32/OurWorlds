@@ -41,3 +41,8 @@
   color: #242424;
   transition: 250ms;
 }
+
+@font-face {
+  font-family: Cambria;
+  src: url(/src/media/Cambria.ttf);
+}

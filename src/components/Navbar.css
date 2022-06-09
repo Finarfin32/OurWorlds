@@ -112,3 +112,8 @@
     cursor: pointer;
   }
 }
+
+@font-face {
+  font-family: Cambria;
+  src: url(/src/media/Cambria.ttf);
+}
