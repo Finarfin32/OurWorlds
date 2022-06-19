@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import "./MediaQueries.css";
-import HomePage from "./components/HomePage";
+import HomePage from "./components/MainPage/HomePage.js";
 
 function App() {
   return (
