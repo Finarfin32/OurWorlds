@@ -1,9 +1,9 @@
 import React from "react";
 import "../../App.css";
 import { Button } from "./Button";
-import "./MainSection.css";
+import "./MainSectionRome.css";
 
-function HeroSection() {
+function MainSectionRome() {
   return (
     <div className="main-container">
       <h1>PRZYGODA CZEKA</h1>
@@ -29,4 +29,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default MainSectionRome;

@@ -1,13 +1,13 @@
 import React from "react";
 import "../../../App.css";
 import Cards from "../Cards";
-import MainSection from "../MainSection";
+import MainSectionChronicles from "../MainSectionChronicles";
 import Footer from "../Footer";
 
 function Home() {
   return (
     <>
-      <MainSection />
+      <MainSectionChronicles />
       <Cards />
       <Footer />
     </>

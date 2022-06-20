@@ -3,7 +3,7 @@
 
 import React from "react";
 import Navbar from "../components/Chronicles/Navbar";
-import "../App";
+import "../App.css";
 import Home from "../components/Chronicles/pages/Home";
 
 export default function Chronicles() {
