@@ -1,11 +1,11 @@
 import React from "react";
 import "../../App.css";
 import { Button } from "./Button";
-import "./MainSectionChronicles.css";
+import "./MainSection.css";
 
-function MainSectionChronicles() {
+function MainSection() {
   return (
-    <div className="main-container">
+    <div className="main-container-rome">
       <h1>PRZYGODA CZEKA</h1>
       <p>Na co czekasz?</p>
       <div className="main-btns">
@@ -29,4 +29,4 @@ function MainSectionChronicles() {
   );
 }
 
-export default MainSectionChronicles;
+export default MainSection;

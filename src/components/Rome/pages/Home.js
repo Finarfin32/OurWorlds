@@ -1,13 +1,13 @@
 import React from "react";
 import "../../../App.css";
 import Cards from "../Cards";
-import MainSectionRome from "../MainSectionRome";
+import MainSection from "../MainSection";
 import Footer from "../Footer";
 
 function Home() {
   return (
     <>
-      <MainSectionRome />
+      <MainSection />
       <Cards />
       <Footer />
     </>
