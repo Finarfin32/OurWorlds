@@ -1,5 +1,3 @@
-/* WSZYSTKIE KOLORY SĄ TESTOWE */
-
 @media only screen and (max-width: 991px) {
   #text1 {
     font-size: 2.2vw;
@@ -12,10 +10,6 @@
     font-size: 1.5vw;
     cursor: pointer;
   }
-
-  /* #link1 {
-    left: 33%;
-  } */
 }
 
 @media only screen and (max-width: 991px) {
@@ -30,8 +24,4 @@
     font-size: 1.5vw;
     cursor: pointer;
   }
-
-  /* #link2 {
-    left: 28%;
-  } */
 }
