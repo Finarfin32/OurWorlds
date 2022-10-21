@@ -7,13 +7,7 @@ import chroniclesSound from "../../sound/chroniclesSound.mp3";
 import romeSound from "../../sound/romeSound.mp3";
 import "../../App.css";
 import "../../MediaQueries.css";
-import {
-  OnClickDisplay,
-  Hover,
-  Hoverout,
-  setFullVolume,
-  setVolumeOff,
-} from "../../utils";
+import { OnClickDisplay, Hover, Hoverout } from "../../utils";
 
 function HomePage() {
   return (
@@ -52,29 +46,13 @@ function HomePage() {
             politykiem, żołnierzem, najemnikiem, kowalem, rolnikiem, złodziejem,
             kapłanem. Stwórz własną historię, przeżyj ją, bądź kim chcesz!
             <br />
-            <a id="link1" href="http://ourworlds.pl/Forum/#49">
+            <Link id="link1" to="/chronicles">
               <input
                 type="button"
                 id="button1"
                 value="WYBIERAM KRONIKI ARBORGU"
               />
-            </a>
-            <button
-              className="btn btn-dark"
-              id="buttonSound1"
-              onClick={() => setVolumeOff()}
-              type="button"
-            >
-              Włącz dźwięk
-            </button>
-            <button
-              className="btn btn-dark"
-              id="buttonSound2"
-              onClick={() => setFullVolume()}
-              type="button"
-            >
-              Wycisz dźwięk
-            </button>
+            </Link>
           </span>
         </div>
         <div
@@ -108,24 +86,18 @@ function HomePage() {
             Imperium w Płomieniach, jest opowieścią o straceńczej odwadze,
             zdradzie, przede wszystkim jednak - bezpardonowej walce.
             <br />
-            <a id="link2" href="http://ourworlds.pl/Forum/#1">
+            <Link id="link2" to="/rome">
               <input
                 type="button"
                 id="button2"
                 value="WYBIERAM IMPERIUM W PŁOMIENIACH"
               />
-            </a>
-            {/* <button onClick={() => setVolumeOff()} type="button">
-                Wycisz dźwięk
-              </button>
-              <button onClick={() => setFullVolume()} type="button">
-                Włącz dźwięk
-              </button> */}
+            </Link>
           </span>
         </div>
-        <Link to="/rome">Rzym</Link> | <Link to="/chronicles">Kroniki</Link>
         <audio id="chroniclesSound" src={chroniclesSound} />
         <audio id="romeSound" src={romeSound} />
+        {/* href="http://ourworlds.pl/Forum/#1" */}
       </div>
     </div>
   );
