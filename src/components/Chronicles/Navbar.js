@@ -1,10 +1,15 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-
+import { FaArrowLeft } from "react-icons/fa";
 function Navbar() {
   return (
     <>
       <nav className="navbar">
+        <Link to="/">
+          <div className="back">
+            <FaArrowLeft /> Powrót
+          </div>
+        </Link>
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
             OurWorlds

@@ -12,14 +12,5 @@ export default function Chronicles() {
       <Navbar />
       <Home />
     </div>
-
-    // <main style={{ padding: "1rem 0" }}>
-    //   <Link to="/">
-    //     <h2>
-    //       <FaArrowLeft /> Powrót na stronę główną
-    //     </h2>
-    //   </Link>
-    //   <h2>Kroniki</h2>
-    // </main>
   );
 }

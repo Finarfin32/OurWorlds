@@ -5,7 +5,7 @@ import "./MainSection.css";
 
 function MainSection() {
   return (
-    <div className="main-container-rome">
+    <div className="main-container-chronicles">
       <h1>PRZYGODA CZEKA</h1>
       <p>Na co czekasz?</p>
       <div className="main-btns">
