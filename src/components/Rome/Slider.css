@@ -1,6 +1,10 @@
 .slider-container {
   height: 100%;
-  background-color: aqua;
+  width: 70%;
+  background-image: url(/src/media/stressed_linen.webp);
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .swiper {
@@ -9,13 +13,8 @@
 }
 
 .swiper-slide {
-  height: 657px;
   width: auto;
-  background-color: rgb(0, 0, 0);
-}
-
-.swiper-slide-active {
-  color: red;
+  background-image: url(/src/media/stressed_linen.webp);
 }
 
 .slider_cards {
@@ -48,15 +47,11 @@ h1 {
 .slider_cards__item {
   display: flex;
   flex: 1;
-  margin: 0 1rem;
   border-radius: 10px;
-  border: 1px solid rgba(56, 125, 255);
+  border: 2px solid rgb(83, 3, 3);
 }
 
 .slider_cards__item__link {
-  /* display: flex;
-  flex-flow: column;
-  flex-direction: row; */
   width: 100%;
   box-shadow: 0 2px 25px rgb(56 125 255 / 25%);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -67,21 +62,13 @@ h1 {
   background: #fff;
 }
 
-.slider_cards__item__pic-wrap {
-  /* position: relative;
-  width: 100%;
-  padding-top: 67%;
-  overflow: hidden; */
-}
-
-.fade-img {
+/* .fade-img {
   animation-name: fade-img;
   animation-duration: 2s;
-}
+} */
 
 .slider_cards__item__pic-wrap::after {
   content: attr(data-category);
-  /* position: absolute; */
   bottom: 0;
   margin-left: 10px;
   padding: 6px 8px;
@@ -94,7 +81,6 @@ h1 {
 }
 
 .slider_cards__item__img {
-  /* position: absolute; */
   float: left;
   top: 0;
   right: 0;
@@ -103,19 +89,9 @@ h1 {
   display: block;
   width: 150px;
   height: 250px;
-  /* width: 100%;
-  max-width: 100%;
-  height: 100%; */
   max-height: 100%;
-  object-fit: cover;
-  transition: all 0.2s linear;
-
   margin-right: 10px;
-  margin-bottom: 5px;
-}
-
-.slider_cards__item__img:hover {
-  transform: scale(1.1);
+  /* margin-bottom: 5px; */
 }
 
 .slider_cards__item__info {
@@ -149,4 +125,20 @@ h1 {
 @font-face {
   font-family: Cambria;
   src: url(/src/media/Cambria.ttf);
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 350px;
+  left: auto;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: -350px;
+  right: auto;
+}
+
+.character_name {
+  font-size: 26px;
+  color: #252e48;
 }

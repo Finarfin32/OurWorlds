@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Slider.css";
 
 function SliderCardItem(props) {
   return (
@@ -17,6 +18,7 @@ function SliderCardItem(props) {
             />
           </figure>
           <div className="slider_cards__item__info">
+            <h3 className="character_name">{props.avatarname}</h3>
             <h5 className="slider_cards__item__text">{props.text}</h5>
           </div>
         </Link>

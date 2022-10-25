@@ -2,8 +2,8 @@
   text-align: center;
 }
 body {
-  background-color: black;
   color: white;
+  background-image: url(/src/media/stressed_linen.webp);
 }
 
 .img-shadow::before {
