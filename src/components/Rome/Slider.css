@@ -3,8 +3,8 @@
   width: 70%;
   background-image: url(/src/media/stressed_linen.webp);
   margin: auto;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  /* padding-top: 2rem; */
+  padding-bottom: 4rem;
 }
 
 .swiper {
@@ -45,10 +45,11 @@ h1 {
 }
 
 .slider_cards__item {
+  height: 450px;
   display: flex;
   flex: 1;
   border-radius: 10px;
-  border: 2px solid rgb(83, 3, 3);
+  /* border: 2px solid rgb(83, 3, 3); */
 }
 
 .slider_cards__item__link {
@@ -92,16 +93,25 @@ h1 {
   max-height: 100%;
   margin-right: 10px;
   /* margin-bottom: 5px; */
+  border-bottom: 4px solid #000000;
+  border-radius: 0px 0px 20px 0px;
+  border-right: 4px solid #000000;
 }
 
 .slider_cards__item__info {
-  padding: 5px 5px 5px 5px;
+  padding: 1px 5px 5px 8px;
 }
 
 .slider_cards__item__text {
   color: #252e48;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1.1rem;
+  line-height: 20px;
+}
+
+.character_name {
+  font-size: 26px;
+  text-shadow: 0.5px 0.5px #000000;
+  color: #252e48;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -138,7 +148,48 @@ h1 {
   right: auto;
 }
 
-.character_name {
-  font-size: 26px;
-  color: #252e48;
+figure {
+  margin: 0 0 0.5rem;
+}
+
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+
+  border-style: solid;
+  border-width: 30px 0 30px 30px;
+  border-color: transparent transparent transparent #7a0220;
+  line-height: 0px;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+
+  border-style: solid;
+  border-width: 30px 30px 30px 0;
+  border-color: transparent #7a0220 transparent transparent;
+  line-height: 0px;
+}
+
+.text_bar {
+  padding-bottom: 3rem;
 }

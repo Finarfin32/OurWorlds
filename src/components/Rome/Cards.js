@@ -8,7 +8,9 @@ import img_4 from "../../images_rome/img_4.jpg";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Test</h1>
+      <div className="text_bar">
+        <h1>Nasze historie</h1>
+      </div>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
