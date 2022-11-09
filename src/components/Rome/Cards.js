@@ -5,11 +5,29 @@ import img_1 from "../../images_rome/img_1.jpg";
 import img_2 from "../../images_rome/img_2.jpg";
 import img_3 from "../../images_rome/img_3.jpg";
 import img_4 from "../../images_rome/img_4.jpg";
+
+import Drawer from "react-modern-drawer";
+import "react-modern-drawer/dist/index.css";
+
 function Cards() {
+  const [isOpen, setIsOpen] = React.useState(false);
+  const toggleDrawer = () => {
+    setIsOpen((prevState) => !prevState);
+  };
+
   return (
     <div className="cards">
       <div className="text_bar">
         <h1>Nasze historie</h1>
+        <button onClick={toggleDrawer}>Show</button>
+        <Drawer
+          open={isOpen}
+          onClose={toggleDrawer}
+          direction="right"
+          className="bla bla bla"
+        >
+          <div>Hello World</div>
+        </Drawer>
       </div>
       <div className="cards__container">
         <div className="cards__wrapper">
