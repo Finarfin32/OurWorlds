@@ -25,6 +25,9 @@ function Cards() {
           onClose={toggleDrawer}
           direction="right"
           className="bla bla bla"
+          size={1000}
+          vw
+          enableOverlay={true}
         >
           <div>Hello World</div>
         </Drawer>
