@@ -5,7 +5,7 @@ import img_1 from "../../images_rome/img_1.jpg";
 import img_2 from "../../images_rome/img_2.jpg";
 import img_3 from "../../images_rome/img_3.jpg";
 import img_4 from "../../images_rome/img_4.jpg";
-
+import Map from "./Map.js";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 
@@ -29,6 +29,7 @@ function Cards() {
           vw
           enableOverlay={true}
         >
+          <Map></Map>
           <div>Hello World</div>
         </Drawer>
       </div>
