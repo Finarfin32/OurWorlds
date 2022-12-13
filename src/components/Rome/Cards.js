@@ -8,13 +8,14 @@ import img_4 from "../../images_rome/img_4.jpg";
 import Map from "./Map.js";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
+import { useRomeContent } from "./RomeContent";
 
 function Cards() {
   const [isOpen, setIsOpen] = React.useState(false);
   const toggleDrawer = () => {
     setIsOpen((prevState) => !prevState);
   };
-
+  const { title } = useRomeContent();
   return (
     <div className="cards">
       <div className="text_bar">
@@ -38,7 +39,7 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src={img_1}
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie sem ut mattis fringilla. Duis posuere ut nisi at bibendum. Fusce hendrerit massa sed nisl lobortis, sit amet vestibulum metus vulputate. Pellentesque pulvinar dui arcu, ut efficitur elit porttitor nec. Aliquam eleifend ligula mattis arcu pretium tincidunt eleifend ac massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi ultrices nunc sit amet orci bibendum, ac viverra mi blandit. "
+              text={title}
               label="czytaj więcej..."
               path="/"
             />

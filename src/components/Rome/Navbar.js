@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { FaArrowLeft } from "react-icons/fa";
+
 function Navbar() {
   return (
     <>
