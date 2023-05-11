@@ -6,10 +6,8 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <Link to="/">
-          <div className="back">
-            <FaArrowLeft /> Powrót
-          </div>
+        <Link to="/" className="back">
+          <FaArrowLeft /> Powrót
         </Link>
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
@@ -39,6 +37,11 @@ function Navbar() {
             <li className="nav-item">
               <Link to="/products" className="nav-links">
                 Poradnik
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/products" className="nav-links">
+                Mapa
               </Link>
             </li>
           </ul>

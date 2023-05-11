@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-text">
-        <p className="footer-text-heading">Dołącz do przygody</p>
+        <p className="footer-text-heading">Bądź na bieżąco</p>
       </section>
       <div class="footer-links">
         <div className="footer-link-wrapper">

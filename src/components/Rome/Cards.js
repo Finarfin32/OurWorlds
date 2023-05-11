@@ -5,63 +5,44 @@ import img_1 from "../../images_rome/img_1.jpg";
 import img_2 from "../../images_rome/img_2.jpg";
 import img_3 from "../../images_rome/img_3.jpg";
 import img_4 from "../../images_rome/img_4.jpg";
-import Map from "./Map.js";
-import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import { useRomeContent } from "./RomeContent";
 
 function Cards() {
-  const [isOpen, setIsOpen] = React.useState(false);
-  const toggleDrawer = () => {
-    setIsOpen((prevState) => !prevState);
-  };
-  const { title } = useRomeContent();
+  const { Card1, Card2, Card3, Card4 } = useRomeContent();
   return (
     <div className="cards">
       <div className="text_bar">
         <h1>Nasze historie</h1>
-        <button onClick={toggleDrawer}>Show</button>
-        <Drawer
-          open={isOpen}
-          onClose={toggleDrawer}
-          direction="right"
-          className="bla bla bla"
-          size={1000}
-          vw
-          enableOverlay={true}
-        >
-          <Map></Map>
-          <div>Hello World</div>
-        </Drawer>
       </div>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
               src={img_1}
-              text={title}
+              text={Card1}
               label="czytaj więcej..."
-              path="/"
+              path="http://ourworlds.pl/Forum/showthread.php?tid=10"
             />
             <CardItem
               src={img_2}
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie sem ut mattis fringilla. Duis posuere ut nisi at bibendum. Fusce hendrerit massa sed nisl lobortis, sit amet vestibulum metus vulputate. Pellentesque pulvinar dui arcu, ut efficitur elit porttitor nec. Aliquam eleifend ligula mattis arcu pretium tincidunt eleifend ac massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi ultrices nunc sit amet orci bibendum, ac viverra mi blandit. "
+              text={Card2}
               label="czytaj więcej..."
-              path="/"
+              path="http://ourworlds.pl/Forum/showthread.php?tid=12"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
               src={img_3}
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie sem ut mattis fringilla. Duis posuere ut nisi at bibendum. Fusce hendrerit massa sed nisl lobortis, sit amet vestibulum metus vulputate. Pellentesque pulvinar dui arcu, ut efficitur elit porttitor nec. Aliquam eleifend ligula mattis arcu pretium tincidunt eleifend ac massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi ultrices nunc sit amet orci bibendum, ac viverra mi blandit. "
+              text={Card3}
               label="czytaj więcej..."
-              path="/"
+              path="http://ourworlds.pl/Forum/showthread.php?tid=136"
             />
             <CardItem
               src={img_4}
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie sem ut mattis fringilla. Duis posuere ut nisi at bibendum. Fusce hendrerit massa sed nisl lobortis, sit amet vestibulum metus vulputate. Pellentesque pulvinar dui arcu, ut efficitur elit porttitor nec. Aliquam eleifend ligula mattis arcu pretium tincidunt eleifend ac massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi ultrices nunc sit amet orci bibendum, ac viverra mi blandit. "
+              text={Card4}
               label="czytaj więcej..."
-              path="/"
+              path="http://ourworlds.pl/Forum/showthread.php?tid=134"
             />
           </ul>
         </div>

@@ -193,3 +193,23 @@ figure {
 .text_bar {
   padding-bottom: 3rem;
 }
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: var(--swiper-navigation-size);
+  text-transform: none!important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  color: transparent;
+}
+
+/* .swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: -25%;
+  left: auto;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: 25%;
+  right: auto;
+} */

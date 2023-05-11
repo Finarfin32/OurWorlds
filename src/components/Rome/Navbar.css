@@ -5,9 +5,9 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  /* position: sticky; */
-  top: 0;
-  z-index: 999;
+  position: sticky;
+  top: 8px;
+  z-index: 1;
   background-image: url(/src/media/marble.png);
   background-color: #242222;
 }
@@ -38,7 +38,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
