@@ -21,6 +21,8 @@
 }
 
 .navbar-logo {
+  align-items: center;
+    height: 100%;
   color: #fff;
   justify-self: start;
   margin-left: 20px;
@@ -28,7 +30,8 @@
   text-decoration: none;
   font-size: 2rem;
   display: flex;
-  align-items: center;
+  margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 .fa-typo3 {
@@ -121,6 +124,8 @@
 .back {
   color: white;
   float: left;
+  margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 a {
