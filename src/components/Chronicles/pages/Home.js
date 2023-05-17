@@ -2,7 +2,7 @@ import React from "react";
 import "../../../App.css";
 import Cards from "../Cards";
 import MainSection from "../MainSection";
-import Footer from "../Footer";
+import Footer from "../../Shared/Footer";
 import { Compare } from "../Compare";
 function Home() {
   return (

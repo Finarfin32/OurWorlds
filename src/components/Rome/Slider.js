@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper";
 
-import "./Cards.css";
+import "../Shared/Cards.css";
 import SliderCardItem from "./SliderCardItem";
 import img_Tiberius from "../../images_rome/img_Tiberius.png";
 import img_Rosie from "../../images_rome/img_Rosie.jpg";

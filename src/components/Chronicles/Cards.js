@@ -1,11 +1,16 @@
 import React from "react";
-import "./Cards.css";
-import CardItem from "./CardItem";
+import "../Shared/Cards.css";
+import CardItem from "../Shared/CardItem";
 import img_1 from "../../images_chronicles/img_1.jpg";
 import img_2 from "../../images_chronicles/img_2.jpg";
 import img_3 from "../../images_chronicles/img_3.jpg";
 import img_4 from "../../images_chronicles/img_4.jpg";
+
+import { useChroniclesContent } from "./ChroniclesContent";
+
 function Cards() {
+  const { CardChronicles1, CardChronicles2, CardChronicles3, CardChronicles4 } =
+    useChroniclesContent();
   return (
     <div className="cards">
       <h1>Test</h1>
@@ -14,29 +19,29 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src={img_1}
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie sem ut mattis fringilla. Duis posuere ut nisi at bibendum. Fusce hendrerit massa sed nisl lobortis, sit amet vestibulum metus vulputate. Pellentesque pulvinar dui arcu, ut efficitur elit porttitor nec. Aliquam eleifend ligula mattis arcu pretium tincidunt eleifend ac massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi ultrices nunc sit amet orci bibendum, ac viverra mi blandit. "
-              label="Test1"
-              path="/"
+              text={CardChronicles1}
+              label="czytaj więcej..."
+              path="http://ourworlds.pl/Forum/showthread.php?tid=65"
             />
             <CardItem
               src={img_2}
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie sem ut mattis fringilla. Duis posuere ut nisi at bibendum. Fusce hendrerit massa sed nisl lobortis, sit amet vestibulum metus vulputate. Pellentesque pulvinar dui arcu, ut efficitur elit porttitor nec. Aliquam eleifend ligula mattis arcu pretium tincidunt eleifend ac massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi ultrices nunc sit amet orci bibendum, ac viverra mi blandit. "
-              label="Test2"
-              path="/"
+              text={CardChronicles2}
+              label="czytaj więcej..."
+              path="http://ourworlds.pl/Forum/showthread.php?tid=68"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
               src={img_3}
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie sem ut mattis fringilla. Duis posuere ut nisi at bibendum. Fusce hendrerit massa sed nisl lobortis, sit amet vestibulum metus vulputate. Pellentesque pulvinar dui arcu, ut efficitur elit porttitor nec. Aliquam eleifend ligula mattis arcu pretium tincidunt eleifend ac massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi ultrices nunc sit amet orci bibendum, ac viverra mi blandit. "
-              label="Test3"
-              path="/"
+              text={CardChronicles3}
+              label="czytaj więcej..."
+              path="http://ourworlds.pl/Forum/showthread.php?tid=70"
             />
             <CardItem
               src={img_4}
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie sem ut mattis fringilla. Duis posuere ut nisi at bibendum. Fusce hendrerit massa sed nisl lobortis, sit amet vestibulum metus vulputate. Pellentesque pulvinar dui arcu, ut efficitur elit porttitor nec. Aliquam eleifend ligula mattis arcu pretium tincidunt eleifend ac massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi ultrices nunc sit amet orci bibendum, ac viverra mi blandit. "
-              label="Test4"
-              path="/"
+              text={CardChronicles4}
+              label="czytaj więcej..."
+              path="http://ourworlds.pl/Forum/showthread.php?tid=64"
             />
           </ul>
         </div>

@@ -2,7 +2,7 @@
 // import { Link } from "react-router-dom";
 
 import React from "react";
-import Navbar from "../components/Chronicles/Navbar";
+import Navbar from "../components/Shared/Navbar";
 import "../App.css";
 import Home from "../components/Chronicles/pages/Home";
 

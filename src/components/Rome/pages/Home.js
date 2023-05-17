@@ -3,7 +3,7 @@ import "../../../App.css";
 import Cards from "../Cards";
 import MainSection from "../MainSection";
 import Slider from "../Slider";
-import Footer from "../Footer";
+import Footer from "../../Shared/Footer";
 import Map from "../Map.js";
 import Drawer from "react-modern-drawer";
 import "./Home.css";
