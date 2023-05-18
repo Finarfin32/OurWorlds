@@ -26,12 +26,16 @@
   color: #fff;
   justify-self: start;
   margin-left: 20px;
-  cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   display: flex;
   margin-top: 0;
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
+  cursor: url("../../media/pointer.png"), auto;
+}
+
+.navbar-logo:hover{
+  color: #c5ab00;
 }
 
 .fa-typo3 {
@@ -66,7 +70,11 @@
 .nav-links:hover {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
+  cursor: url("../../media/pointer.png"), auto;
+  color: #c5ab00;
 }
+
+
 
 .fa-bars {
   color: #fff;
@@ -112,23 +120,23 @@
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
-    cursor: pointer;
+    cursor: url("../../media/pointer.png"), auto;
   }
-}
-
-@font-face {
-  font-family: Cambria;
-  src: url(/src/media/Cambria.ttf);
 }
 
 .back {
   color: white;
   float: left;
   margin-top: 0;
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.back:hover{
+  color: #c5ab00;
 }
 
 a {
   color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
+  cursor: url("../../media/pointer.png"), auto;
 }

@@ -1,0 +1,9 @@
+.EZDrawer .EZDrawer__overlay {
+    display: none;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    cursor: url(../../media/pointer.png), auto;
+}

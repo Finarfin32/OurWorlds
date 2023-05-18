@@ -30,3 +30,7 @@
   color: #8f8605;
   font-weight: bold;
 }
+
+.sticky-img :hover {
+  cursor: url("../../../media/pointer.png"), auto;
+}

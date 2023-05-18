@@ -14,19 +14,22 @@
   border-bottom: 2px solid black;
 }
 
-.main-container > h1 {
+.main-container-chronicles > h1 {
   color: #fff;
   font-size: 100px;
   margin-top: -100px;
-  font-family: BeyondWonderland;
+  font-family: IowanOldStyle, Cambria, sans-serif;
+  text-shadow: 2px 2px 3px rgba(72, 72, 74, 1);
+  font-weight: 500;
+  margin: 0.01em 0;
 }
 
-.main-container > p {
-  margin-top: 8px;
+.main-container-chronicles > p {
   color: #fff;
-  font-size: 32px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-size: 36px;
+  font-family: IowanOldStyle, Cambria, sans-serif;
+  text-shadow: 2px 2px 3px rgba(72, 72, 74, 1);
+  font-weight: 500;
 }
 
 .main-btns {
@@ -67,4 +70,8 @@
 @font-face {
   font-family: Cambria;
   src: url(/src/media/Cambria.ttf);
+}
+
+.btn-mobile :hover {
+  cursor: url("../../media/pointer.png"), auto;
 }
