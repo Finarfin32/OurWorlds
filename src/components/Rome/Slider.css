@@ -190,9 +190,9 @@ figure {
   line-height: 0px;
 }
 
-.text_bar {
+/* .text_bar {
   padding-bottom: 3rem;
-}
+} */
 
 .swiper-button-next:after, .swiper-button-prev:after {
   font-family: swiper-icons;

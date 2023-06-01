@@ -13,7 +13,7 @@ function Cards() {
   return (
     <div className="cards">
       <div className="text_bar">
-        <h1>Nasze historie</h1>
+        <h1>Poznaj nasze historie</h1>
       </div>
       <div className="cards__container">
         <div className="cards__wrapper">

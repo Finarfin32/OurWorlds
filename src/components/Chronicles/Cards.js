@@ -13,7 +13,7 @@ function Cards() {
     useChroniclesContent();
   return (
     <div className="cards">
-      <h1>Test</h1>
+      <h1>Poznaj nasze historie</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
