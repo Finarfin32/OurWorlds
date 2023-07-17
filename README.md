@@ -7,14 +7,33 @@ OurWorlds originally started to take shape around 2014-2015. Initially, along wi
 
 ## Demo
 
+#### Main Page
+
 ![](https://github.com/Finarfin32/finarfin32/blob/Finarfin32-gifs/OurWorlds1.gif)
+
+#### Rome Side
+
 ![](https://github.com/Finarfin32/finarfin32/blob/Finarfin32-gifs/OurWorlds2.gif)
+
+#### Rome Map
+
 ![](https://github.com/Finarfin32/finarfin32/blob/Finarfin32-gifs/OurWorlds3.gif)
+
+#### Chronicles Side
+
 ![](https://github.com/Finarfin32/finarfin32/blob/Finarfin32-gifs/OurWorlds4.gif)
+
+#### Chronicles Continued
+
 ![](https://github.com/Finarfin32/finarfin32/blob/Finarfin32-gifs/OurWorlds5.gif)
+
+#### Forum Main Side
+
 ![](https://github.com/Finarfin32/finarfin32/blob/Finarfin32-gifs/OurWorlds6.gif)
+
+#### Forum Threads
+
 ![](https://github.com/Finarfin32/finarfin32/blob/Finarfin32-gifs/OurWorlds7.gif)
-![](https://github.com/Finarfin32/finarfin32/blob/Finarfin32-gifs/OurWorlds8.jpg)
 
 ## FAQ
 
