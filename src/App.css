@@ -45,6 +45,7 @@ body {
   width: max-content;
   visibility: hidden;
   border-radius: 1vh;
+  border-width: 3px;
   background-image: url(media/marble.png);
   background-color: transparent;
   color: whitesmoke;
@@ -57,6 +58,7 @@ body {
   width: max-content;
   visibility: hidden;
   border-radius: 1vh;
+  border-width: 3px;
   background-image: url(media/marble.png);
   background-color: transparent;
   color: whitesmoke;

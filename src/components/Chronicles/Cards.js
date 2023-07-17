@@ -13,7 +13,9 @@ function Cards() {
     useChroniclesContent();
   return (
     <div className="cards">
-      <h1>Poznaj nasze historie</h1>
+      <div className="text_bar2">
+        <h1>Poznaj nasze historie</h1>
+      </div>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">

@@ -132,3 +132,12 @@ h1 {
   text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
   color: #D2C8AE;
 }
+
+.text_bar2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.05;
+  text-transform: uppercase;
+  text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
