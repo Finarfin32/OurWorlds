@@ -52,7 +52,6 @@ function Home() {
         enableOverlay={true}
       >
         <Map></Map>
-        <div>Hello World</div>
       </Drawer>
       <Cards />
       <Slider />

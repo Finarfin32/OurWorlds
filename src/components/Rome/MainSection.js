@@ -2,7 +2,6 @@ import React from "react";
 import "../../App.css";
 import { Button } from "../Shared/Button";
 import "./MainSection.css";
-import { Link } from "react-router-dom";
 
 function MainSection() {
   return (
@@ -10,7 +9,11 @@ function MainSection() {
       <h1>PRZYGODA CZEKA</h1>
       <p>Na co czekasz?</p>
       <div className="main-btns">
-        <Link to="http://ourworlds.pl/Forum/#49">
+        <a
+          href="http://our2worlds.pl/Forum/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Button
             className="btns"
             buttonStyle="btn--outline"
@@ -18,17 +21,21 @@ function MainSection() {
           >
             ZACZNIJ JUŻ DZIŚ
           </Button>
-        </Link>
-        <Link to="http://ourworlds.pl/Forum/#49">
+        </a>
+        <a
+          href="http://our2worlds.pl/Forum/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Button
-            className="btns hero-btns "
+            className="btns hero-btns"
             buttonStyle="btn--primary"
             buttonSize="btn--large"
-            onClick={console.log("test")}
+            //onClick={() => console.log("test")}
           >
             SPRAWDŹ FORUM
           </Button>
-        </Link>
+        </a>
       </div>
     </div>
   );
