@@ -11,7 +11,7 @@ function Navbar() {
         </Link>
         <div className="navbar-container">
           <Link
-            to="http://ourworlds.pl/Forum/index.php"
+            to="http://our2worlds.pl/Forum/index.php"
             className="navbar-logo"
           >
             OurWorlds
@@ -23,7 +23,7 @@ function Navbar() {
           <ul className="nav-menu active">
             <li className="nav-item">
               <Link
-                to="http://ourworlds.pl/Forum/forumdisplay.php?fid=52"
+                to="http://our2worlds.pl/Forum/forumdisplay.php?fid=52"
                 className="nav-links"
               >
                 Start
@@ -31,21 +31,21 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="http://ourworlds.pl/Forum/index.php"
+                to="http://our2worlds.pl/Forum/index.php"
                 className="nav-links"
               >
                 Discord
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="http://ourworlds.pl/Forum/#49" className="nav-links">
+              <Link to="http://our2worlds.pl/Forum/#49" className="nav-links">
                 Forum
               </Link>
             </li>
 
             <li className="nav-item">
               <Link
-                to="http://ourworlds.pl/Forum/forumdisplay.php?fid=52"
+                to="http://our2worlds.pl/Forum/forumdisplay.php?fid=52"
                 className="nav-links"
               >
                 Poradnik
@@ -53,7 +53,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="http://ourworlds.pl/Forum/showthread.php?tid=7"
+                to="http://our2worlds.pl/Forum/showthread.php?tid=7"
                 className="nav-links"
               >
                 Mapa
