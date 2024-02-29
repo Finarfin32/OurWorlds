@@ -39,8 +39,8 @@ OurWorlds originally started to take shape around 2014-2015. Initially, along wi
 
 #### What is the address of your forum?
 
-http://ourworlds.pl
-http://ourworlds.pl/Forum/#1
+http://our2worlds.pl
+http://our2worlds.pl/Forum/
 
 #### Is the game still active?
 
