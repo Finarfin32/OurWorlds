@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/OurWorlds/static/css/main.af162c3f.css",
+    "main.js": "/OurWorlds/static/js/main.227258d5.js",
+    "static/js/787.2628b502.chunk.js": "/OurWorlds/static/js/787.2628b502.chunk.js",
+    "static/media/chroniclesSound.mp3": "/OurWorlds/static/media/chroniclesSound.e954084f60e325b7ae34.mp3",
+    "static/media/romeSound.mp3": "/OurWorlds/static/media/romeSound.38112bc7ca36b39c24e8.mp3",
+    "static/media/main_side1.png": "/OurWorlds/static/media/main_side1.d812cdc38f195f1e0db9.png",
+    "static/media/main_side2.png": "/OurWorlds/static/media/main_side2.d66ed0a2ab50f65ccda9.png",
+    "static/media/img_4.jpg": "/OurWorlds/static/media/img_4.0aad34e0277dfae41729.jpg",
+    "static/media/Chronicles_Main.jpg": "/OurWorlds/static/media/Chronicles_Main.374143cfc7a7ef677665.jpg",
+    "static/media/Rome_Main.jpg": "/OurWorlds/static/media/Rome_Main.b547f1fe1db73cc60ef8.jpg",
+    "static/media/Map.png": "/OurWorlds/static/media/Map.4b18875bfcd71ce3ea98.png",
+    "static/media/world1.jpg": "/OurWorlds/static/media/world1.1350adb55477086fad63.jpg",
+    "static/media/world2.jpg": "/OurWorlds/static/media/world2.d1823b79dbc897cd9c1c.jpg",
+    "static/media/img_1.jpg": "/OurWorlds/static/media/img_1.c7be9ed37af612e2746a.jpg",
+    "static/media/Cambria.ttf": "/OurWorlds/static/media/Cambria.767a1ee46c53d53447c2.ttf",
+    "static/media/img_3.jpg": "/OurWorlds/static/media/img_3.b028080d375089d0d047.jpg",
+    "static/media/war2.jpg": "/OurWorlds/static/media/war2.d5610ab3c5acaf4cb96a.jpg",
+    "static/media/war1.jpg": "/OurWorlds/static/media/war1.8a61329cfa58ad50adbf.jpg",
+    "static/media/IowanOldStyle.ttf": "/OurWorlds/static/media/IowanOldStyle.c58e103e4eaf0474eaac.ttf",
+    "static/media/img_2.jpg": "/OurWorlds/static/media/img_2.3a06e60200d6009bc6a0.jpg",
+    "static/media/img_Tiberius.png": "/OurWorlds/static/media/img_Tiberius.76ec03c684050a6ffe35.png",
+    "static/media/marble.png": "/OurWorlds/static/media/marble.0273524d460cc336134a.png",
+    "static/media/img_Wercyr.jpg": "/OurWorlds/static/media/img_Wercyr.125bbd10a7a857c8cfdd.jpg",
+    "static/media/img_Roxane.jpg": "/OurWorlds/static/media/img_Roxane.63f1bfa94cad6256e6ef.jpg",
+    "static/media/stressed_linen.webp": "/OurWorlds/static/media/stressed_linen.847daf6a76a9574827c4.webp",
+    "index.html": "/OurWorlds/index.html",
+    "main.af162c3f.css.map": "/OurWorlds/static/css/main.af162c3f.css.map",
+    "main.227258d5.js.map": "/OurWorlds/static/js/main.227258d5.js.map",
+    "787.2628b502.chunk.js.map": "/OurWorlds/static/js/787.2628b502.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af162c3f.css",
+    "static/js/main.227258d5.js"
+  ]
+}
