@@ -31,7 +31,6 @@ function MainSection() {
             className="btns hero-btns"
             buttonStyle="btn--primary"
             buttonSize="btn--large"
-            //onClick={() => console.log("test")}
           >
             SPRAWDŹ FORUM
           </Button>

@@ -5,6 +5,10 @@
 Dear reader, you're probably wondering what this mysteriously sounding project called "OurWorlds" is. Allow me to describe it from the beginning.
 OurWorlds originally started to take shape around 2014-2015. Initially, along with my friends, we decided to create an amateur text-based role-playing game ([PBF](https://en.wikipedia.org/wiki/Play-by-post_role-playing_game)) that would take place through an online forum ([PBF](https://en.wikipedia.org/wiki/Play-by-post_role-playing_game)). I was quite young at that time, but I was entrusted with the task of creating the forum based on the MyBB engine (which was quite advanced for those times). I had to take care of the server and website hosting, ensure the database was set up, and prepare the basic layout. From the original versions of the forum, not much remains, but we meticulously transferred our posts and role-playing threads. Many of them didn't survive to this day, but no one can take away the fun we had there. Ultimately, the forum still stands today, and as part of learning React, I decided to create something like a homepage, which you can see here in these projects. But still u can visit my forum.
 
+## Link to automated tests
+
+https://github.com/Finarfin32/OurWorldsTest
+
 ## Demo
 
 #### Main Page

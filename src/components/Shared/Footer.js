@@ -1,39 +1,80 @@
 import React from "react";
 import "./Footer.css";
-import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <div className="footer-container">
-      <section className="footer-text">
-        <p className="footer-text-heading">Bądź na bieżąco</p>
-      </section>
-      <div class="footer-links">
+      <p className="footer-text-heading">Bądź na bieżąco</p>
+      <div className="footer-links">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>O nas</h2>
-            <Link to="http://our2worlds.pl/Forum/forumdisplay.php?fid=52">
+            <a
+              href="http://our2worlds.pl/Forum/forumdisplay.php?fid=52"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Jak zacząć
-            </Link>
-            <Link to="http://our2worlds.pl/Forum/forumdisplay.php?fid=52">
+            </a>
+            <a
+              href="http://our2worlds.pl/Forum/forumdisplay.php?fid=52"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Początek
-            </Link>
-            <Link to="http://our2worlds.pl/Forum/forumdisplay.php?fid=74">
+            </a>
+            <a
+              href="http://our2worlds.pl/Forum/forumdisplay.php?fid=74"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Historia
-            </Link>
-            <Link to="http://our2worlds.pl/Forum/forumdisplay.php?fid=6">
+            </a>
+            <a
+              href="http://our2worlds.pl/Forum/forumdisplay.php?fid=6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Bohaterowie
-            </Link>
-            <Link to="http://our2worlds.pl/Forum/forumdisplay.php?fid=52">
+            </a>
+            <a
+              href="http://our2worlds.pl/Forum/forumdisplay.php?fid=52"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Zasady
-            </Link>
+            </a>
           </div>
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Napisz do nas</h2>
-            <Link to="http://our2worlds.pl/Forum/index.php">Kontakt</Link>
-            <Link to="http://our2worlds.pl/Forum/index.php">Wsparcie</Link>
-            <Link to="http://our2worlds.pl/Forum/index.php">Discord</Link>
-            <Link to="http://our2worlds.pl/Forum/index.php">Forum</Link>
+            <a
+              href="http://our2worlds.pl/Forum/index.php"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Kontakt
+            </a>
+            <a
+              href="http://our2worlds.pl/Forum/index.php"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Wsparcie
+            </a>
+            <a
+              href="http://our2worlds.pl/Forum/index.php"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Discord
+            </a>
+            <a
+              href="http://our2worlds.pl/Forum/index.php"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Forum
+            </a>
           </div>
         </div>
       </div>

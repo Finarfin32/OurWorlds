@@ -1,8 +1,15 @@
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { FaArrowLeft } from "react-icons/fa";
 
 function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <>
       <nav className="navbar">
@@ -10,54 +17,72 @@ function Navbar() {
           <FaArrowLeft /> Powrót
         </Link>
         <div className="navbar-container">
-          <Link
-            to="http://our2worlds.pl/Forum/index.php"
+          <a
+            href="http://our2worlds.pl/Forum/index.php"
             className="navbar-logo"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             OurWorlds
             <i className="fab fa-typo3" />
-          </Link>
-          <div className="menu-icon">
-            <i className="fas fa-times fas fa-bars" />
+          </a>
+          <div className="menu-icon" onClick={toggleMenu}>
+            {isMenuOpen ? (
+              <i className="fas fa-times" />
+            ) : (
+              <i className="fas fa-bars" />
+            )}
           </div>
-          <ul className="nav-menu active">
+          <ul className={`nav-menu ${isMenuOpen ? "active" : ""}`}>
             <li className="nav-item">
-              <Link
-                to="http://our2worlds.pl/Forum/forumdisplay.php?fid=52"
+              <a
+                href="http://our2worlds.pl/Forum/forumdisplay.php?fid=52"
                 className="nav-links"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Start
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link
-                to="http://our2worlds.pl/Forum/index.php"
+              <a
+                href="http://our2worlds.pl/Forum/index.php"
                 className="nav-links"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Discord
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link to="http://our2worlds.pl/Forum/#49" className="nav-links">
-                Forum
-              </Link>
-            </li>
-
-            <li className="nav-item">
-              <Link
-                to="http://our2worlds.pl/Forum/forumdisplay.php?fid=52"
+              <a
+                href="http://our2worlds.pl/Forum/#49"
                 className="nav-links"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Forum
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                href="http://our2worlds.pl/Forum/forumdisplay.php?fid=52"
+                className="nav-links"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Poradnik
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link
-                to="http://our2worlds.pl/Forum/showthread.php?tid=7"
+              <a
+                href="http://our2worlds.pl/Forum/showthread.php?tid=7"
                 className="nav-links"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Mapa
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
