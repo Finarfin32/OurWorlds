@@ -11,7 +11,6 @@ import { useChroniclesContent } from "./ChroniclesContent";
 function Cards() {
   const { CardChronicles1, CardChronicles2, CardChronicles3, CardChronicles4 } =
     useChroniclesContent();
-
   return (
     <div className="cards">
       <div className="text_bar2">
