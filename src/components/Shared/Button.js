@@ -1,11 +1,10 @@
 import React from "react";
 import "./Button.css";
-import { Link } from "react-router-dom";
 
 const STYLES = ["btn--primary", "btn--outline", "btn--test"];
 const SIZES = ["btn--medium", "btn--large"];
 
-export const Button = ({
+export const ButtonToForum = ({
   children,
   type,
   onClick,
@@ -19,7 +18,11 @@ export const Button = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to="/" className="btn-mobile">
+    <a
+      href="http://our2worlds.pl/Forum/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
@@ -27,6 +30,6 @@ export const Button = ({
       >
         {children}
       </button>
-    </Link>
+    </a>
   );
 };
