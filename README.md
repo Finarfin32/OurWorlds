@@ -11,7 +11,7 @@ https://github.com/Finarfin32/OurWorldsTest
 
 ## Demo
 
-https://our2worlds.pl/
+https://our3worlds.pl
 
 #### Main Page
 
@@ -45,8 +45,8 @@ https://our2worlds.pl/
 
 #### What is the address of your forum?
 
-http://our2worlds.pl
-http://our2worlds.pl/Forum/
+http://our3worlds.pl
+http://our3worlds.pl/forum/
 
 #### Is the game still active?
 
