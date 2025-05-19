@@ -18,7 +18,7 @@ function Navbar() {
         </Link>
         <div className="navbar-container">
           <a
-            href="http://our2worlds.pl/Forum/index.php"
+            href="http://our3worlds.pl/Forum/index.php"
             className="navbar-logo"
             target="_blank"
             rel="noopener noreferrer"
@@ -36,7 +36,7 @@ function Navbar() {
           <ul className={`nav-menu ${isMenuOpen ? "active" : ""}`}>
             <li className="nav-item">
               <a
-                href="http://our2worlds.pl/Forum/forumdisplay.php?fid=52"
+                href="http://our3worlds.pl/Forum/forumdisplay.php?fid=52"
                 className="nav-links"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -46,7 +46,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a
-                href="http://our2worlds.pl/Forum/index.php"
+                href="http://our3worlds.pl/Forum/index.php"
                 className="nav-links"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -56,7 +56,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a
-                href="http://our2worlds.pl/Forum/#49"
+                href="http://our3worlds.pl/Forum/#49"
                 className="nav-links"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -66,7 +66,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a
-                href="http://our2worlds.pl/Forum/forumdisplay.php?fid=52"
+                href="http://our3worlds.pl/Forum/forumdisplay.php?fid=52"
                 className="nav-links"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -76,7 +76,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a
-                href="http://our2worlds.pl/Forum/showthread.php?tid=7"
+                href="http://our3worlds.pl/Forum/showthread.php?tid=7"
                 className="nav-links"
                 target="_blank"
                 rel="noopener noreferrer"

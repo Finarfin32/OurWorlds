@@ -10,35 +10,35 @@ function Footer() {
           <div className="footer-link-items">
             <h2>O nas</h2>
             <a
-              href="http://our2worlds.pl/Forum/forumdisplay.php?fid=52"
+              href="http://our3worlds.pl/Forum/forumdisplay.php?fid=52"
               target="_blank"
               rel="noopener noreferrer"
             >
               Jak zacząć
             </a>
             <a
-              href="http://our2worlds.pl/Forum/forumdisplay.php?fid=52"
+              href="http://our3worlds.pl/Forum/forumdisplay.php?fid=52"
               target="_blank"
               rel="noopener noreferrer"
             >
               Początek
             </a>
             <a
-              href="http://our2worlds.pl/Forum/forumdisplay.php?fid=74"
+              href="http://our3worlds.pl/Forum/forumdisplay.php?fid=74"
               target="_blank"
               rel="noopener noreferrer"
             >
               Historia
             </a>
             <a
-              href="http://our2worlds.pl/Forum/forumdisplay.php?fid=6"
+              href="http://our3worlds.pl/Forum/forumdisplay.php?fid=6"
               target="_blank"
               rel="noopener noreferrer"
             >
               Bohaterowie
             </a>
             <a
-              href="http://our2worlds.pl/Forum/forumdisplay.php?fid=52"
+              href="http://our3worlds.pl/Forum/forumdisplay.php?fid=52"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -48,28 +48,28 @@ function Footer() {
           <div className="footer-link-items">
             <h2>Napisz do nas</h2>
             <a
-              href="http://our2worlds.pl/Forum/index.php"
+              href="http://our3worlds.pl/Forum/index.php"
               target="_blank"
               rel="noopener noreferrer"
             >
               Kontakt
             </a>
             <a
-              href="http://our2worlds.pl/Forum/index.php"
+              href="http://our3worlds.pl/Forum/index.php"
               target="_blank"
               rel="noopener noreferrer"
             >
               Wsparcie
             </a>
             <a
-              href="http://our2worlds.pl/Forum/index.php"
+              href="http://our3worlds.pl/Forum/index.php"
               target="_blank"
               rel="noopener noreferrer"
             >
               Discord
             </a>
             <a
-              href="http://our2worlds.pl/Forum/index.php"
+              href="http://our3worlds.pl/Forum/index.php"
               target="_blank"
               rel="noopener noreferrer"
             >

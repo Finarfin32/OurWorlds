@@ -66,7 +66,7 @@ function Slider() {
               text={Description1}
               label="czytaj więcej..."
               avatarname="Tiberius Sidonius Geta"
-              path="http://our2worlds.pl/Forum/showthread.php?tid=29"
+              path="http://our3worlds.pl/Forum/showthread.php?tid=29"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -75,7 +75,7 @@ function Slider() {
               text={Description2}
               label="czytaj więcej..."
               avatarname="Rosie Evie Braverose"
-              path="http://our2worlds.pl/Forum/showthread.php?tid=31"
+              path="http://our3worlds.pl/Forum/showthread.php?tid=31"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -83,7 +83,7 @@ function Slider() {
               src={img_Wercyr}
               text={Description3}
               avatarname="Gaius Lucius Dentatus"
-              path="http://our2worlds.pl/Forum/showthread.php?tid=32"
+              path="http://our3worlds.pl/Forum/showthread.php?tid=32"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -92,7 +92,7 @@ function Slider() {
               text={Description4}
               label="czytaj więcej..."
               avatarname="Roxane Sophie Evening"
-              path="http://our2worlds.pl/Forum/showthread.php?tid=33"
+              path="http://our3worlds.pl/Forum/showthread.php?tid=33"
             />
           </SwiperSlide>
         </Swiper>
