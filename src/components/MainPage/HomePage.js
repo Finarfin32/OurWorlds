@@ -97,7 +97,7 @@ function HomePage() {
         </div>
         <audio id="chroniclesSound" src={chroniclesSound} />
         <audio id="romeSound" src={romeSound} />
-        {/* href="http://our3worlds.pl/Forum/#1" */}
+        {/* href="http://our3worlds.pl/forum/#1" */}
       </div>
     </div>
   );

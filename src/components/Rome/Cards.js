@@ -22,13 +22,13 @@ function Cards() {
               src={img_1}
               text={Card1}
               label="czytaj więcej..."
-              path="http://our3worlds.pl/Forum/showthread.php?tid=10"
+              path="http://our3worlds.pl/forum/showthread.php?tid=10"
             />
             <CardItem
               src={img_2}
               text={Card2}
               label="czytaj więcej..."
-              path="http://our3worlds.pl/Forum/showthread.php?tid=12"
+              path="http://our3worlds.pl/forum/showthread.php?tid=12"
             />
           </ul>
           <ul className="cards__items">
@@ -36,13 +36,13 @@ function Cards() {
               src={img_3}
               text={Card3}
               label="czytaj więcej..."
-              path="http://our3worlds.pl/Forum/showthread.php?tid=136"
+              path="http://our3worlds.pl/forum/showthread.php?tid=136"
             />
             <CardItem
               src={img_4}
               text={Card4}
               label="czytaj więcej..."
-              path="http://our3worlds.pl/Forum/showthread.php?tid=134"
+              path="http://our3worlds.pl/forum/showthread.php?tid=134"
             />
           </ul>
         </div>

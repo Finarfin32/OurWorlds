@@ -19,7 +19,7 @@ export const ButtonToForum = ({
 
   return (
     <a
-      href="http://our3worlds.pl/Forum/"
+      href="http://our3worlds.pl/forum/"
       target="_blank"
       rel="noopener noreferrer"
     >
